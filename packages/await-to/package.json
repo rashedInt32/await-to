@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rashedInt32/jsts-utils/tree/main/packages/try-catch"
+    "url": "https://github.com/rashedInt32/await-to"
   },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
@@ -28,7 +28,9 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "test": "vitest run",
     "test:watch": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "version": "changesets version",
+    "publish": "changesets publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
