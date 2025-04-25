@@ -29,7 +29,6 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "coverage": "vitest run --coverage",
-    "update-version": "changesets version",
     "publish": "changesets publish"
   },
   "devDependencies": {
