@@ -266,7 +266,7 @@ npm test
 
 ## 📄 License
 
-MIT © YourName or Org
+MIT © rashedInt32
 
 ---
 
