@@ -1,0 +1,8 @@
+packages:
+  - "packages/*"
+  - "tooling/*"
+
+catalog:
+  eslint: ^9.22.0
+  typescript: ^5.8.2
+  "@types/node": ^22.13.9
